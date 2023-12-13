@@ -76,7 +76,6 @@ nav .link ul li {
     border: none;
 }
 
-
 /*nav's end*/
 
 /*start header*/
@@ -370,4 +369,22 @@ i {
 
 a:hover {
     text-decoration: underline;
+}
+
+/*end button and link decorations*/
+
+/*bonus*/
+.wave {
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    width: 100%;
+    height: 90px;
+}
+
+.rotate-wave {
+    transform: rotate(180deg);
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    width: 100%;
+    height: 90px;
 }
