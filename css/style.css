@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'whitney';
+    src: url(whitneymedium.otf);
+}
+
+body {
+    font-family: 'whitney';
+}
+
+/*container*/
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*nav*/
+
+nav {
+    padding: 16px;
+
+    background-color: #add8e6;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #daa520;
+}
+
+nav .container>* {
+    border: dashed 2px black;
+
+    padding: 10px;
+}
+
+nav .logo {
+    width: 100px;
+    text-align: left;
+}
+
+nav .link {
+    flex-grow: 1;
+}
+
+nav .link ul {
+    display: flex;
+    justify-content: center;
+
+    gap: 12px;
+
+    list-style-type: none;
+}
+
+nav .link ul li {
+    padding-left: 20px;
+
+    color: white;
+}
+
+nav .login {
+    width: 100px;
+    text-align: right;
+}
+
+/*nav's end*/
+
+/*start header*/
+
+header {
+    background-color: #00008b;
+
+    padding: 40px 20px;
+}
+
+.container-small {
+    background-color: #ee82ee;
+
+    max-width: 800px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: dashed black 2px;
+}
+
+hr {
+    border: #add8e6 solid 2px;
+}
+
+/*header's end*/
+
+/*main sections*/
+.row {
+    display: flex;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.text {
+    height: 400px;
+
+    background-color: #1e90ff;
+    border: dashed 2px black;
+
+    flex-grow: 1;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+
+    background-color: #ffc0cb;
+    border: dashed 2px black;
+
+}
+
+.bigbox {
+    background-color: #228b22;
+
+    height: 600px;
+    border: dashed 2px black;
+}
+
+main section .box {
+    width: 900px;
+    padding-top: 700px;
+
+    background-color: #228b22;
+    border: 2px black dashed;
+}
+
+/*end main sections*/
+
+/*start top footer*/
+footer {
+    background-color: #23272a;
+
+    padding-top: 8px;
+}
+
+
+footer .container>* {
+    border: dashed 2px black;
+}
+
+footer #footer-top {
+    margin-bottom: 30px;
+}
+
+footer #footer-top .footer-links {
+    height: 500px;
+    width: 250px;
+
+    background-color: #f08080;
+}
+
+footer #footer-top .column {
+    background-color: #20b2aa;
+
+    flex-grow: 1;
+}
+
+/*end top footer*/
+
+/*start bottom footer*/
+footer #footer-bottom {
+    background-color: #7fffd4;
+
+    margin-top: 16px;
+}
+
+footer #footer-bottom {
+    justify-content: space-between;
+
+    padding: 16px 0;
+}
+
+footer #footer-bottom>* {
+    background-color: #ffb6c1;
+
+    padding: 4px 8px;
+}
+
+/*end bottom footer*/
