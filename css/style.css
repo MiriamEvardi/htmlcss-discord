@@ -76,6 +76,7 @@ nav .link ul li {
     border: none;
 }
 
+
 /*nav's end*/
 
 /*start header*/
@@ -255,11 +256,6 @@ footer {
     padding-top: 8px;
 }
 
-
-footer .container>* {
-    border: dashed 2px black;
-}
-
 footer #footer-top {
     display: flex;
     margin-bottom: 50px;
@@ -271,11 +267,9 @@ footer #footer-top .footer-links {
     flex-grow: 8;
     height: 500px;
     width: 300px;
-    background-color: #f08080;
 }
 
 footer #footer-top .column {
-    background-color: #20b2aa;
     flex-grow: 4;
     height: 500px;
 
@@ -286,6 +280,7 @@ h3 {
     font-family: 'whitneybold';
     font-size: 2em;
     padding-bottom: 20px;
+    color: #7289da;
 }
 
 .language {
@@ -293,12 +288,24 @@ h3 {
     vertical-align: middle;
 }
 
-select {
-    border: none;
-    outline: none;
-    background-color: transparent;
-
+h4 {
+    font-size: 1.2em;
+    color: #7289da;
 }
+
+ul {
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /*end top footer*/
 
@@ -321,4 +328,26 @@ footer #footer-bottom>* {
     padding: 4px 8px;
 }
 
+
 /*end bottom footer*/
+
+/*button and link decorations*/
+.download:hover,
+.login:hover {
+    color: #7289da;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.open:hover {
+    background-color: #3c4042;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.mac:hover {
+    color: rgb(231, 243, 180);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    text-decoration: underline;
+}
