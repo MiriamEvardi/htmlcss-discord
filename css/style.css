@@ -131,9 +131,6 @@ h1 {
     background-color: #23272a;
     color: white;
     border: none;
-
-
-
 }
 
 hr {
@@ -165,8 +162,8 @@ section {
 }
 
 .image {
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
 
     background-color: #ffc0cb;
     border: dashed 2px black;
@@ -187,6 +184,23 @@ main section .box {
     background-color: #228b22;
     border: 2px black dashed;
 }
+
+/*section's content*/
+#first,
+#second,
+#third {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: 'whitneybold';
+    font-size: 2.5em;
+
+    text-align: left;
+}
+
+
 
 /*end main sections*/
 
