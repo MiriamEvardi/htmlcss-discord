@@ -377,6 +377,7 @@ a:hover {
 .wave {
     background-image: url(../img/wave.svg);
     background-size: cover;
+    filter: invert(83%);
     width: 100%;
     height: 90px;
 }
@@ -385,6 +386,7 @@ a:hover {
     transform: rotate(180deg);
     background-image: url(../img/wave.svg);
     background-size: cover;
+    filter: invert(83%);
     width: 100%;
     height: 90px;
 }
