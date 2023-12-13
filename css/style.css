@@ -9,6 +9,11 @@
     src: url(whitneymedium.otf);
 }
 
+@font-face {
+    font-family: 'whitneybold';
+    src: url(whitneybold.otf);
+}
+
 body {
     font-family: 'whitney';
 }
@@ -34,12 +39,6 @@ nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
-
-
-
-    background-color: #3161E0;
 }
 
 nav .container>* {
@@ -48,9 +47,6 @@ nav .container>* {
 
 nav .logo {
     width: 120px;
-
-
-
 }
 
 nav .link {
@@ -80,29 +76,64 @@ nav .link ul li {
     border: none;
 }
 
-
-
-
 /*nav's end*/
 
 /*start header*/
 
 header {
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 .container-small {
-    background-color: #ee82ee;
-
-    max-width: 800px;
+    max-width: 700px;
     height: 300px;
 
     margin-left: auto;
     margin-right: auto;
+}
 
-    border: dashed black 2px;
+h1 {
+    font-family: 'whitneybold';
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.container-small>p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.download-open {
+    text-align: center;
+}
+
+.download {
+    padding: 10px 15px 13px 10px;
+    margin-right: 20px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    vertical-align: middle;
+    border: none;
+}
+
+.open {
+    padding: 11px 20px 15px 20px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    background-color: #23272a;
+    color: white;
+    border: none;
+
+
+
 }
 
 hr {
