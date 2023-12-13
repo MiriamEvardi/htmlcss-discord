@@ -290,6 +290,7 @@ h3 {
 select {
     background-color: transparent;
     color: white;
+    border-color: #23272a;
 }
 
 h4 {
