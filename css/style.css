@@ -84,7 +84,7 @@ header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
 
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 .container-small {
@@ -145,44 +145,48 @@ hr {
 }
 
 section {
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 .bg-gray {
     background-color: #d3d3d3;
+
+
 }
 
 .text {
-    height: 400px;
-
-    background-color: #1e90ff;
-    border: dashed 2px black;
+    height: 100%;
+    width: 550px;
 
     flex-grow: 1;
 }
 
 .image {
-    max-height: 400px;
-    max-width: 400px;
+    width: 450px;
+    padding-bottom: 40px;
+}
 
-    background-color: #ffc0cb;
-    border: dashed 2px black;
+.text-section1 {
+    padding-left: 200px;
+    padding-top: 30px;
 
 }
 
-.bigbox {
-    background-color: #228b22;
+.text-section2 {
+    padding-right: 200px;
+    padding-top: 30px;
+}
 
-    height: 600px;
-    border: dashed 2px black;
+.bigbox {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
 }
 
 main section .box {
     width: 900px;
     padding-top: 700px;
-
-    background-color: #228b22;
-    border: 2px black dashed;
 }
 
 /*section's content*/
@@ -200,7 +204,47 @@ h2 {
     text-align: left;
 }
 
+.text>p {
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
 
+.container>h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.container>p {
+    text-align: center;
+    padding: 0 60px 0 60px;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
+
+#start-adventure {
+
+    font-family: 'whitneybold';
+    font-size: 1.6em;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mac {
+    align-items: center;
+    margin: 50px 400px 50px 400px;
+    font-size: 1em;
+    border-radius: 25px;
+    padding: 10px 15px 13px 10px;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
+}
 
 /*end main sections*/
 
@@ -217,20 +261,43 @@ footer .container>* {
 }
 
 footer #footer-top {
-    margin-bottom: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
 }
 
 footer #footer-top .footer-links {
+    flex-grow: 8;
     height: 500px;
-    width: 250px;
-
+    width: 300px;
     background-color: #f08080;
 }
 
 footer #footer-top .column {
     background-color: #20b2aa;
+    flex-grow: 4;
+    height: 500px;
 
-    flex-grow: 1;
+    width: 150px;
+}
+
+h3 {
+    font-family: 'whitneybold';
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.language {
+    width: 30px;
+    vertical-align: middle;
+}
+
+select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+
 }
 
 /*end top footer*/
