@@ -253,6 +253,7 @@ footer #footer-top {
     display: flex;
     margin-bottom: 50px;
     margin-top: 80px;
+    border-bottom: #7289da solid 2px;
 
 }
 
