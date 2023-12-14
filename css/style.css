@@ -42,7 +42,7 @@ nav .container {
 }
 
 nav .logo {
-    width: 120px;
+    padding-top: 10px;
 }
 
 nav .link {
@@ -65,9 +65,7 @@ nav .link ul li {
 }
 
 .login {
-    width: 70px;
-    height: 30px;
-
+    padding: 10px 14px;
     border-radius: 20px;
     border: none;
 }
