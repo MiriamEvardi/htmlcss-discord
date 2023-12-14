@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'whitney';
-    src: url(whitneymedium.otf);
+    src: url(../font/whitneymedium.otf);
 }
 
 @font-face {
     font-family: 'whitneybold';
-    src: url(whitneybold.otf);
+    src: url(../font/whitneybold.otf);
 }
 
 body {
@@ -84,7 +84,7 @@ header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
 
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 .container-small {
