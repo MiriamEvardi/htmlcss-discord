@@ -229,7 +229,7 @@ h2 {
     background-position: center;
 }
 
-.mac {
+.win-download {
     align-items: center;
     margin: 50px 400px 50px 400px;
     font-size: 1em;
@@ -356,7 +356,7 @@ i {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.mac:hover,
+.win-download:hover,
 .sign-in:hover {
     color: rgb(231, 243, 180);
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
